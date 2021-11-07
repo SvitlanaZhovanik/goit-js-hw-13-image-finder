@@ -1,11 +1,7 @@
 {{#each this}}
   <li>
     <div class='photo-card card'>
-      <img class="card-img-top img" src='{{webformatURL}}' alt='' width="320"/>
-      <div class="modal">
-    <img src="{{largeImageURL}}" width="1200" height="800">
-    </div>
-
+      <img class="card-img-top img" srcset="{{largeImageURL}}" src='{{webformatURL}}' alt='' width="320"/>
       <div class='stats card-body'>
         <p class='stats-item card-text'>
           <i class='material-icons'>thumb_up</i>
