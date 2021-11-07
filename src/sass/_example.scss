@@ -23,18 +23,18 @@ img {
 }
 
 .search-form {
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 0 15px;
-    opacity: 1;
-    transition: opacity .25s linear;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 15px;
+  opacity: 1;
+  transition: opacity .25s linear;
 }
 .wrapper{
   margin-right: 5px;
